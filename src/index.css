@@ -1,0 +1,84 @@
+.App {
+  width: 70%;
+  margin-left: 10%;
+}
+
+header {
+
+}
+
+footer{
+margin-top: 0%;
+background-color: darkgreen;
+color: aliceblue;
+display: flex;
+}
+
+ul {
+  flex-wrap: nowrap;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Times New Roman", Times, serif;
+  background-color: greenyellow;
+  border-color: black;
+  margin: 0;
+}
+
+.zakazchik {
+  justify-content: space-around;
+}
+
+.obchayaInfoZakazchika,
+.adress,
+.svedeniyaDolgLic,
+.rekvizity {
+  background-color: rgb(170, 235, 245);
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+p,
+h3 {
+  font-style: oblique;
+  font-weight: bolder;
+  /* font-size: 28px; */
+  text-align: center;
+  margin: 1%;
+}
+
+.dialogOkno {
+  background-color: rgb(0, 39, 49);
+  width: 70%;
+  height: 50%;
+  border-radius: 2%;
+  border-color: black;
+  border-style: solid;
+  position: absolute;
+  margin-left: 14%;
+  margin-right: 24%;
+  margin-top: 5%;
+  color: white;
+}
+.logirovanie,
+.registraciya {
+  width: 40%;
+  height: 20%;
+  background-color: rgb(154, 208, 253);
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column;
+  margin-left: 14%;
+  margin-right: 24%;
+  margin-top: 5%;
+  border-radius: 2.12%;
+  border-color: rgb(63, 172, 245);
+  border-style: solid;
+}
